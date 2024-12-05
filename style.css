@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom left,
+    #84094F, #84094F,#1801A5, #1801A5, hsl(285, 90%, 10%), hsl(285, 90%, 10%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.darkContainer {
+    background-color: black;
+}
+.lightContainer {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #3B044D, 10px -10px 20px #3B044D,
+    -10px 10px 20px #3B044D, -10px -10px 20px #3B044D;
+}
+
+.toggle-theme {
+    margin-left: 89%;
+    margin-bottom: 70px;
+}
+
+
+.themeToggeler {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.lightThemeToggeler{
+    background-color:hsl(0, 0%, 20%);
+}
+.darkThemeToggeler{
+    background-color: white;
+}
+
+
+.displayResult {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.darkDisplay {
+    background-color: black;
+    color: white;
+}
+.lightDisplay {
+    background-color: white;
+    color: black;
+}
+.displayResult .display {
+    width: 100%;
+    padding: 5px;
+    padding-right: 15px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: right;
+    border: none;
+    margin-top: -10px;
+}
+
+table {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 10px;
+}
+
+
+table button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.lightNumberBtn {
+    color: black;
+    background-color: hsl(201, 100%, 88%);
+}
+
+.lightNumberBtn:hover {
+    background-color: hsl(201, 100%, 78%);
+}
+.lightNumberBtn:active {
+    background-color: hsl(201, 100%, 68%);
+}
+
+.darkNumberBtn {
+    color: white;
+    background-color: #1B2F38;
+}
+
+.darkNumberBtn:hover {
+    background-color: hsl(199, 35%, 12%);
+}
+.darkNumberBtn:active {
+    background-color: hsl(199, 35%, 26%);
+}
+
+
+.CBtnLight {
+    background-color: hsl(356, 100%, 92%);
+    color: red;
+}
+.CBtnLight:hover {
+    background-color: hsl(356, 100%, 80%);
+}
+.CBtnLight:active {
+    background-color: hsl(356, 100%, 70%);
+}
+
+.CBtnDark {
+    color: white;
+    background-color: green;
+}
+.CBtnDark:hover {
+    background-color: hsl(120, 100%, 20%);
+}
+.CBtnDark:active {
+    background-color: hsl(120, 100%, 30%);
+}
+
+
+
+
+.equlaBtnLight{
+    background-color: hsl(166, 86%, 83%);
+}
+.equlaBtnLight:hover {
+    background-color: hsl(166, 86%, 73%);
+}
+.equlaBtnLight:active {
+    background-color: hsl(166, 86%, 63%);
+}
+
+
+.equlaBtnDark {
+    color: white;
+    background-color: hsl(248, 99%, 25%);
+}
+
+.equlaBtnDark:hover {
+    background-color: hsl(248, 99%, 20%);
+}
+
+.equlaBtnDark:active {
+    background-color: hsl(248, 99%, 35%);
+}
+
+
+
+
+.lightOperators {
+    color: hsl(287, 62%, 70%);
+    background-color: hsl(303, 100%, 91%);
+}
+
+.lightOperators:hover {
+    background-color: hsl(303, 100%, 80%);
+}
+.lightOperators:active {
+    background-color: hsl(303, 100%, 70%);
+}
+
+.darkOperators {
+    color: #A901A3;
+    background-color: #2E1F39;
+}
+
+.darkOperators:hover {
+    background-color: hsl(275, 30%, 12%);
+}
+
+.darkOperators:active {
+    background-color: hsl(275, 30%, 27%);
+}
